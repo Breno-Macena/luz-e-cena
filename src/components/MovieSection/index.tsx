@@ -9,14 +9,14 @@ import useFilterMovies from '../../hooks/useFilterMovies'
 
 const MovieSection = () => {
   const { movies, error, isLoading } = useFetchMovies()
-  const { serachTerm, handleSearch, setSearchTerm, filteredMovies } = useFilterMovies(movies)
+  const { searchTerm, handleSearch, setSearchTerm, filteredMovies } = useFilterMovies(movies)
 
   return (
     <main>
       <section className={styles.container}>
         <Fieldset variant='secondary'>
           <InputText
-            value={serachTerm}
+            value={searchTerm}
             onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
               setSearchTerm(event.target.value)
             } placeholder='Buscar filmes...' />
