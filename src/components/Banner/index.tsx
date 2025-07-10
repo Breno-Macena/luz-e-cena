@@ -6,7 +6,7 @@ type BannerProps = {
 }
 
 const Banner = ({ src, alt }: BannerProps) => {
-  return <img src={src} alt={alt} className={styles.banner}/>
+  return <img src={src} alt={alt} className={styles.banner} />
 }
 
 export default Banner

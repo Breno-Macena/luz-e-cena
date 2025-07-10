@@ -7,9 +7,9 @@ interface SelectorGroup extends React.SelectHTMLAttributes<HTMLSelectElement> {
 
 const SelectorGroup = ({ icon, children, ...rest }: SelectorGroup) => {
   return (
-    <div className={ styles.container }>
+    <div className={styles.container}>
       {icon && <div className={styles.icone}>{icon}</div>}
-      <select className={ styles.selector } {...rest}>{ children }</select>
+      <select className={styles.selector} {...rest}>{children}</select>
     </div>
   )
 }

@@ -10,16 +10,16 @@ const Header = () => {
     <header>
       <HeaderList>
         <HeaderListItem>
-          <Logo src='/Logo e Favicon/Logo.png'/>
+          <Logo src='/Logo e Favicon/Logo.png' />
         </HeaderListItem>
         <HeaderListItem>
-          <HeaderLinks/>
+          <HeaderLinks />
         </HeaderListItem>
         <HeaderListItem>
-          <HeaderFormFilters/>
+          <HeaderFormFilters />
         </HeaderListItem>
         <HeaderListItem>
-          <HeaderActions/>
+          <HeaderActions />
         </HeaderListItem>
       </HeaderList>
     </header>

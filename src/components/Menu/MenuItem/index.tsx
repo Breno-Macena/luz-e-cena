@@ -8,7 +8,7 @@ interface MenuItemProps extends React.LiHTMLAttributes<HTMLLIElement> {
 const MenuItem = ({ children, href = '#', ...rest }: MenuItemProps) => {
   return (
     <li {...rest}>
-      <Link href={ href }>{ children }</Link>
+      <Link href={href}>{children}</Link>
     </li>
   )
 }
